@@ -5,237 +5,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Aamir Enterprises Magam | The Best Selling Book Shop | Books | Notes | JKBOSE | CBSE | NEET | JEE | IIT | MATH,SCIENCE,ARTS,COMMERACE">
+    <meta name="description" content="Aamir Enterprises Magam | The Best Selling Book Shop | Books | Notes | JKBOSE | CBSE | NEET | JEE | IIT | MATH,SCIENCE,ARTS,COMMERACE">
     <title>Aamir Enterprises</title>
     <!-- Style -->
-    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div class="bg-dark collapse" id="navbarHeader">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-md-7 py-4">
-                        <h4 class="text-white">About</h4>
-                        <p class="text-muted">Add some information about the album below, the author, or any other
-                            background context. Make it a few sentences long so folks can pick up some informative
-                            tidbits. Then, link them off to some social networking sites or contact information.</p>
-                    </div>
-                    <div class="col-sm-4 offset-md-1 py-4">
-                        <h4 class="text-white">Contact</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                            <li><a href="#" class="text-white">Like on Facebook</a></li>
-                            <li><a href="#" class="text-white">Email me</a></li>
-                        </ul>
-                    </div>
+    <div class="container">
+        <header class="header py-3">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                    <a class="link-secondary" href="#"><img src="./images/logo-Aamir_Enterprises.png" class="img-fluid logo-img" alt="logo-Aamir_Enterprises" srcset=""></a>
+                </div>
+                <div class=" col-4 text-center">
+                    <a class="header-logo-text text-dark" href="#">Aamir Enterprises</a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a class="link-secondary" href="#" aria-label="Search">
+
+                    </a>
+                    <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
                 </div>
             </div>
+        </header>
+        <div class="nav-scroller py-1 mb-2">
+            <nav class="nav d-flex justify-content-between">
+                <a class="p-2 text-muted" href="#">Books</a>
+                <a class="p-2 text-muted" href="#">Notebooks</a>
+                <a class="p-2 text-muted" href="#">Model Paper</a>
+                <a class="p-2 text-muted" href="#">Drawing Paper</a>
+                <a class="p-2 text-muted" href="#">Syllabus</a>
+                <a class="p-2 text-muted" href="#">Sports</a>
+                <a class="p-2 text-muted" href="#">Stationar</a>
+                <a class="p-2 text-muted" href="#">Kids</a>
+                <a class="p-2 text-muted" href="#">School Bags</a>
+                <a class="p-2 text-muted" href="#">N95 Masks</a>
+
+            </nav>
         </div>
-        <div class="navbar navbar-dark bg-dark shadow-sm">
-            <div class="container">
-                <a href="#" class="navbar-brand d-flex align-items-center">
-                    <strong>Aamir Enterprises</strong>
-                </a>
-                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+    </div>
+    <main>
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="first-slide" src="./images/books.jpg" alt="First slide">
+                        <div class="container">
+                            <div class="carousel-caption text-left">
+                                <h1 class="caption-title-text">Aamir Enterprises</h1>
+                                <p class="caption-text">A Compulate Book & stationary Shop</p>
+                                <a class="btn  btn-light" href="#" role="button"> Call Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="second-slide" src="./images/stationary.jpg" alt="Second slide">
+                        <div class="container">
+                            <div class="carousel-caption text-dark">
+                                <h1 class="caption-title-text">Stationar</h1>
+                                <p class="caption-text">Stationar for Office , Kids, Students, Girls more ....
+                                </p>
+                                <a class="btn  btn-dark" href="#" role="button">Visit Shop</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/sports.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption  text-right">
+                            <h1 class="caption-title-text text-dark">Sports & Games.</h1>
+                            <p class="caption-text text-dark">Sports, Fitness & Outdoors Equipment's with great deals & discounts at low prices.
+                            </p>
+                            <p><a class="btn btn-lg btn-dark" href="#" role="button">Contact Us</a></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
-    </header>
-    <main>
-        <section class="py-5 text-center container">
-            <div class="row py-lg-5">
-                <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">Aamir Enterprises</h1>
-                    <p class="lead text-muted">Book Store</p>
-                    <p>
-                        <a href="#" class="btn btn-primary my-2">Call</a>
-                        <a href="#" class="btn btn-secondary my-2">Email</a>
-                    </p>
-                </div>
-            </div>
-        </section>
-        <div class="album py-5 bg-light">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col-md-4">
-                        <div class="card shadow-sm">
-                            <img src="./images/IMG-20210316-WA0000.jpg" alt=""
-                                class="bd-placeholder-img card-img-top img-fluid thumbnail" srcset="">
-                            <div class="card-body">
-                                <p class="card-text">THE NORTH FACE</p>
-                                <p class="card-text">Blue green Bag </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">RS 699</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">CALL</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/IMG-20210316-WA0001.jpg" class="thumbnail" alt="" srcset="">
-
-                            <div class="card-body">
-                                <p class="card-text">IT'S MINE</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">RS 999</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">CALL</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/IMG-20210316-WA0002.jpg" class="bd-placeholder-img card-img-top" alt="">
-                            <div class="card-body">
-                                <p class="card-text"></p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/IMG-20210316-WA0018.jpg" class="bd-placeholder-img card-img-top" alt=""
-                                srcset="">
-
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/IMG-20210316-WA0003.jpg" class="bd-placeholder-img card-img-top" alt=""
-                                srcset="">
-
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/IMG-20210316-WA0004.jpg" class="bd-placeholder-img card-img-top" alt=""
-                                srcset="">
-
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/IMG-20210316-WA0005.jpg" class="bd-placeholder-img card-img-top" alt=""
-                                srcset="">
-
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/IMG-20210316-WA0006.jpg" class="bd-placeholder-img card-img-top" alt=""
-                                srcset="">
-
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./images/IMG-20210316-WA0007.jpg" class="bd-placeholder-img card-img-top" alt=""
-                                srcset="">
-
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- Gallery -->
+        <div class="container my-3">
+            <!-- Gallery -->
+            <div class="gallery my-1">
+                <img src="./images/IMG-20210316-WA0008.jpg" class="img-fluid " alt="...">
+                <img src="./images/IMG-20210316-WA0001.jpg" class="img-fluid " alt="...">
+                <img src="./images/IMG-20210316-WA0002.jpg" class="img-fluid " alt="...">
+                <img src="./images/bag-aamir-enterprises.jpeg" class="img-fluid " alt="...">
+                <img src="./images/Books-aamir-enterprises.jpeg" class="img-fluid " alt="...">
+                <img src="./images/IMG-20210316-WA0003.jpg" class="img-fluid " alt="...">
+                <img src="./images/IMG-20210316-WA0004.jpg" class="img-fluid " alt="...">
+                <img src="./images/IMG-20210316-WA0005.jpg" class="img-fluid " alt="...">
+                <img src="./images/IMG-20210316-WA0006.jpg" class="img-fluid " alt="...">
+                <img src="./images/IMG-20210316-WA0007.jpg" class="img-fluid " alt="...">
+                <img src="./images/IMG-20210316-WA0009.jpg" class="img-fluid " alt="...">
+                <img src="./images/IMG-20210316-WA0010.jpg" class="img-fluid " alt="...">
             </div>
         </div>
+        <!-- Gallery-End -->
     </main>
-    <footer class="text-muted py-5">
-        <div class="container">
-            <p class="float-end mb-1">
-                <a href="#">Back to top</a>
-            </p>
-            <p class="mb-1"> © 2021-2022 Aamir Enterprises</p>
-            <p class="mb-0">Developed By <a href="aamirbhat.xyz" target="blank">Aamir Bhat</a></p>
-        </div>
-    </footer>
     <!-- Javascript -->
-    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>
